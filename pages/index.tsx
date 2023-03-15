@@ -10,7 +10,6 @@ interface Props {
 }
 
 function index({ posts }: Props) {
-  console.log(posts);
   return (
     <div className="max-w-7xl mx-auto">
       <Head>
